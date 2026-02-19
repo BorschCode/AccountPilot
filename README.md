@@ -216,11 +216,60 @@ GOLOGIN_API_TOKEN=
 
 ---
 
+## ⚠️ IMPORTANT DISCLAIMER
+
+**THIS PROJECT IS FOR EDUCATIONAL AND RESEARCH PURPOSES ONLY.**
+
+This software is designed to demonstrate browser profile management and automation concepts. It is NOT intended to:
+
+- Violate terms of service of any platform (LinkedIn, Facebook, Instagram, Twitter, etc.)
+- Bypass security measures or authentication systems
+- Engage in fraudulent activities, spam, or unauthorized access
+- Manipulate platform algorithms or engagement metrics
+- Create fake accounts or impersonate individuals
+
+**Legal Notice:**
+- Users are solely responsible for ensuring their use complies with all applicable laws and platform terms of service
+- Misuse of this software may result in account bans, legal action, or criminal prosecution
+- The developers assume NO liability for any misuse or damages resulting from the use of this software
+- By using this software, you agree to use it only for legitimate, authorized purposes
+
+**Legitimate Use Cases:**
+- Managing your own authorized accounts across different environments
+- Testing and development workflows with proper authorization
+- Educational research on browser automation and profile management
+- Authorized multi-account management for businesses with proper permissions
+
+If you plan to use this software with any third-party platform, ensure you have:
+1. Read and understood their Terms of Service
+2. Obtained necessary permissions for automation
+3. Complied with all applicable laws and regulations
+
+---
+
 ## ⚠ Disclaimer
 
-This project is intended for legitimate account management and automation workflows.
-Users are responsible for complying with the terms of service of any platforms they interact with.
+This project is intended for legitimate account management and automation workflows only.
+
+**You must comply with:**
+- All applicable laws and regulations in your jurisdiction
+- Terms of Service of any platforms you interact with (LinkedIn, Facebook, Instagram, etc.)
+- Data protection and privacy regulations (GDPR, CCPA, etc.)
+- Anti-fraud and anti-spam legislation
+
+**Prohibited Uses:**
+- Creating fake or unauthorized accounts
+- Scraping data without permission
+- Spamming or mass messaging
+- Bypassing platform security measures
+- Any activity that violates platform policies
+
+The authors and contributors of this project are not responsible for any misuse or illegal activities conducted with this software.
 
 ---
 
 ## 📄 License
+
+This project is licensed under the Eclipse Public License 2.0 (EPL-2.0).
+
+See the [LICENSE](LICENSE) file for full license text.

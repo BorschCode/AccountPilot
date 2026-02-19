@@ -16,6 +16,15 @@
                         {{ __('Dashboard') }}
                     </flux:sidebar.item>
                 </flux:sidebar.group>
+
+                <flux:sidebar.group :heading="__('Job Posting')" class="grid">
+                    <flux:sidebar.item icon="briefcase" :href="route('job-postings.index')" :current="request()->routeIs('job-postings.*')" wire:navigate>
+                        {{ __('Job Postings') }}
+                    </flux:sidebar.item>
+                    <flux:sidebar.item icon="globe-alt" :href="route('gologin-profiles.index')" :current="request()->routeIs('gologin-profiles.*')" wire:navigate>
+                        {{ __('Browser Profiles') }}
+                    </flux:sidebar.item>
+                </flux:sidebar.group>
             </flux:sidebar.nav>
 
             <flux:spacer />
