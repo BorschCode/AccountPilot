@@ -13,6 +13,8 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             GoLoginProfileSeeder::class,
             JobPostingSeeder::class,
+            EmailSeeder::class,
+            PlatformAccountSeeder::class,
         ]);
     }
 }

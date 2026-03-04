@@ -4,9 +4,9 @@ namespace App\Filament\Resources\GoLoginProfiles\Schemas;
 
 use App\Enums\GoLoginProfileStatus;
 use App\Enums\Platform;
-use Filament\Forms\Components\Section;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 
 class GoLoginProfileForm
