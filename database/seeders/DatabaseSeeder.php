@@ -15,6 +15,8 @@ class DatabaseSeeder extends Seeder
             JobPostingSeeder::class,
             EmailSeeder::class,
             PlatformAccountSeeder::class,
+            SiteTemplateSeeder::class,
+            SiteRegistrationSeeder::class,
         ]);
     }
 }
