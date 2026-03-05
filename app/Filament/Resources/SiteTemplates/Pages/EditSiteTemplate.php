@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Filament\Resources\SiteTemplates\Pages;
+
+use App\Filament\Resources\SiteTemplates\SiteTemplateResource;
+use Filament\Actions\DeleteAction;
+use Filament\Actions\ForceDeleteAction;
+use Filament\Actions\RestoreAction;
+use Filament\Resources\Pages\EditRecord;
+
+class EditSiteTemplate extends EditRecord
+{
+    protected static string $resource = SiteTemplateResource::class;
+
+    protected function getHeaderActions(): array
+    {
+        return [
+            DeleteAction::make(),
+            ForceDeleteAction::make(),
+            RestoreAction::make(),
+        ];
+    }
+}
