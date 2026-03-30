@@ -16,6 +16,7 @@ class PlatformAccountFactory extends Factory
             'email_id' => null,
             'platform' => fake()->randomElement(Platform::cases())->value,
             'login' => fake()->userName(),
+            'password' => fake()->optional()->password(),
             'username' => fake()->optional()->userName(),
             'first_name' => fake()->optional()->firstName(),
             'geo_region' => fake()->country(),

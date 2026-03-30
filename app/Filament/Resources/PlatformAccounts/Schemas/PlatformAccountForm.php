@@ -35,6 +35,11 @@ class PlatformAccountForm
                             ->maxLength(255)
                             ->placeholder('Login used to sign in'),
 
+                        TextInput::make('password')
+                            ->nullable()
+                            ->maxLength(255)
+                            ->placeholder('Account password'),
+
                         TextInput::make('username')
                             ->nullable()
                             ->maxLength(255)
